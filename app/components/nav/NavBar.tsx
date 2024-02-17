@@ -7,8 +7,8 @@ const redressed = Redressed({ subsets: ['latin'], weight: '400' });
 
 const NavBar = () => {
   return (
-    <div className="sticky top-0 w-full bg-black text-white z-30 shadow-sm ">
-      <div className="py-4 border-b-[1px] border-white">
+    <div className="sticky top-[-1px] w-full bg-black text-white z-30 shadow-sm ">
+      <div className="py-5">
         <Container>
           <div className="flex items-center justify-between gap-3 md:gap-0">
             <Link href="/" className={`font-bold text-2xl ${redressed.className}`}>

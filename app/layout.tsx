@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-br">
+    <html lang="pt-BR">
       <body className={`${poppins.className} text-zinc-700`}>
         <div className="flex flex-col min-h-screen">
           <NavBar />
