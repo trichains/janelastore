@@ -5,7 +5,7 @@ export const products = [
     id: '64a654593e91b8e73a351e9b',
     name: 'iPhone 14',
     description: 'Breve descrição',
-    price: 2999,
+    price: 4199,
     brand: 'Apple',
     category: 'Celular',
     inStock: true,
@@ -28,7 +28,7 @@ export const products = [
     name: 'Teclado Logitech MX Keys Wireless',
     description:
       'Teclas em formato esférico oferecem feedback satisfatório\nDesign para conforto, estabilidade e precisão',
-    price: 102.99,
+    price: 780.99,
     brand: 'Logitech',
     category: 'Acessórios',
     inStock: true,
@@ -65,8 +65,8 @@ export const products = [
     id: '648437b38c44d52b9542e340',
     name: 'Apple iPhone 13, 64GB',
     description:
-      'Produto recondicionado, totalmente funcional e em excelente estado. Garantia renovada de 90 dias pela E~Shop.\n- Profissionalmente inspecionado, testado e limpo\n- "Excelente condição", sem danos visíveis\n- Bateria com mais de 80% da capacidade\n- Acessórios compatíveis incluídos\n- Elegível para substituição ou reembolso em 90 dias\n- Não garantido à prova d\'água',
-    price: 40,
+      'Produto recondicionado, totalmente funcional e em excelente estado. Garantia renovada de 90 dias pela JanelaStore.\n- Profissionalmente inspecionado, testado e limpo\n- "Excelente condição", sem danos visíveis\n- Bateria com mais de 80% da capacidade\n- Acessórios compatíveis incluídos\n- Elegível para substituição ou reembolso em 90 dias\n- Não garantido à prova d\'água',
+    price: 3500,
     brand: 'Apple',
     category: 'Celular',
     inStock: true,
@@ -133,7 +133,7 @@ export const products = [
     name: 'Mouse Sem Fio Logitech MX Master 2S',
     description:
       'Controle de computadores cruzado: Capacidade de navegar perfeitamente em 3 computadores e copiar colar texto, imagens e arquivos usando Logitech Flow\nConectividade dupla: Use com até 3 computadores Windows ou Mac via receptor Unifying ou Bluetooth Smart',
-    price: 70,
+    price: 860,
     brand: 'Logitech',
     category: 'Acessórios',
     inStock: true,
@@ -148,10 +148,10 @@ export const products = [
   },
   {
     id: '649d775128b6744f0f497040',
-    name: 'Smartwatch (Atender/Fazer Chamadas), 1.85" à Prova d\'Água IP68',
+    name: 'Smartwatch (Atende/Faz Chamadas), 1.85" à Prova d\'Água IP68',
     description:
       'Lembrete de Chamada e Mensagem Bluetooth: Equipado com alto-falante HD. Use para atender/fazer chamadas, ler mensagens, armazenar contatos. Configure notificações de mensagens no aplicativo "GloryFit". Nunca perca chamadas e mensagens durante reuniões, exercícios e passeios.',
-    price: 50,
+    price: 200,
     brand: 'Nerunsa',
     category: 'Relógio',
     inStock: true,
