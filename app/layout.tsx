@@ -7,13 +7,13 @@ import Footer from './components/footer/Footer';
 const poppins = Poppins({ subsets: ['latin'], weight: ['400', '700'] });
 
 export const metadata: Metadata = {
-  title: 'janelaStore',
+  title: 'JanelaStore - Ecommerce',
   description: 'ecommerce',
   openGraph: {
-    title: 'janelaStore',
+    title: 'JanelaStore - Ecommerce',
     description: 'ecommerce',
     url: 'https://janelastore.vercel.app/',
-    siteName: 'janelaStore',
+    siteName: 'JanelaStore',
     images: [{ url: 'https://janelastore.vercel.app/logo.png' }],
     locale: 'pt-BR',
     type: 'website'
