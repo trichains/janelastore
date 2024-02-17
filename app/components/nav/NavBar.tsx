@@ -12,8 +12,8 @@ const NavBar = () => {
         <Container>
           <div className="flex items-center justify-between gap-3 md:gap-0">
             <Link href="/" className={`font-bold text-2xl ${redressed.className}`}>
-              <span className="accent">J</span>anela
-              <span className="text-gray-400">Store</span>
+              <span className="text-emerald-500">J</span>anela
+              <span className="text-gray-500">Store</span>
             </Link>
             <div className="hidden md:block">Pesquisar</div>
             <div className="flex items-center gap-8 md:gap-12">
