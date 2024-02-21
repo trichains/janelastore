@@ -1,5 +1,6 @@
 'use client';
 
+import Button from '@/app/components/Button';
 import SetColor from '@/app/components/products/SetColor';
 import SetQuantity from '@/app/components/products/SetQuantity';
 import { Rating } from '@mui/material';
@@ -104,7 +105,9 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
           handleQuantityDecrease={handleQuantityDecrease}
         />
         <Horizontal />
-        <div>adicionar ao carrinho</div>
+        <div className="max-w-[200px]">
+          <Button outline label="Adicionar ao carrinho" onClick={() => {}} />
+        </div>
       </div>
     </div>
   );
