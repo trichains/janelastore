@@ -31,7 +31,7 @@ export const product = {
       productId: '648437b38c44d52b9542e340',
       rating: 4,
       comment: 'camera muito boa e a entrega também foi bem rápida.',
-      createdDate: '2023-06-26T15:53:44.483Z',
+      createdDate: '2024-06-26T15:53:44.483Z',
       user: {
         id: '6499b184b0e9a8c8709821d3',
         name: 'Cristhian',
@@ -39,9 +39,9 @@ export const product = {
         emailVerified: null,
         image: 'https://avatars.githubusercontent.com/u/25783243?v=4',
         hashedPassword: null,
-        createdAt: '2023-06-26T15:40:52.558Z',
-        updatedAt: '2023-06-26T15:40:52.558Z',
-        role: 'USER'
+        createdAt: '2024-06-26T15:40:52.558Z',
+        updatedAt: '2024-06-26T15:40:52.558Z',
+        role: 'ADMIN'
       }
     },
     {
@@ -50,7 +50,7 @@ export const product = {
       productId: '648437b38c44d52b9542e340',
       rating: 5,
       comment: 'Gostei muito! combinou com a cor do meu esmalte. Parabéns!',
-      createdDate: '2023-06-26T14:30:40.998Z',
+      createdDate: '2023-06-25T14:30:40.998Z',
       user: {
         id: '6475af156bad4917456e6e1e',
         name: 'Ana',
@@ -60,7 +60,7 @@ export const product = {
         hashedPassword: null,
         createdAt: '2023-05-30T08:08:53.979Z',
         updatedAt: '2023-05-30T08:08:53.979Z',
-        role: 'ADMIN'
+        role: 'USER'
       }
     }
   ]
