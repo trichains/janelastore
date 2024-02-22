@@ -1,28 +1,19 @@
 export const product = {
   id: '648437b38c44d52b9542e340',
-  name: 'Apple iPhone 13, 64GB',
+  name: 'Xiaomi Redmi 12 - 256GB',
   description:
-    'Produto recondicionado, totalmente funcional e em excelente estado. Garantia renovada de 90 dias pela JanelaStore.\n- Profissionalmente inspecionado, testado e limpo\n- "Excelente condição", sem danos visíveis\n- Bateria com mais de 80% da capacidade\n- Acessórios compatíveis incluídos\n- Elegível para substituição ou reembolso em 90 dias\n- Não garantido à prova d\'água',
+    'O Redmi 12 oferece uma experiência visual premium e desempenho aprimorado com seu design sofisticado. Com uma tela FHD+ de 90 Hz, proteção para os olhos e som envolvente, este dispositivo oferece uma experiência imersiva. Sua bateria poderosa, processador MediaTek Helio G88 Octa-core e armazenamento expansível tornam-no uma escolha ideal. Garantido pela JanelaStore com garantia de 90 dias e elegibilidade para substituição ou reembolso.',
   price: 3500,
-  brand: 'Apple',
+  brand: 'Xiaomi',
   category: 'Celular',
   inStock: true,
   images: [
     {
-      color: 'Preto',
-      colorCode: '#000000',
-      image: 'https://m.media-amazon.com/images/I/61g+McQpg7L._AC_SX679_.jpg'
+      color: 'Midnight Black',
+      colorCode: '#222',
+      image: 'https://m.media-amazon.com/images/I/61t99wqLeaL._AC_SL1500_.jpg'
     },
-    {
-      color: 'Azul',
-      colorCode: ' #0000FF',
-      image: 'https://m.media-amazon.com/images/I/713Om9vCHUL._AC_SX679_.jpg'
-    },
-    {
-      color: 'Vermelho',
-      colorCode: '#FF0000',
-      image: 'https://m.media-amazon.com/images/I/61thdjmfHcL.__AC_SX300_SY300_QL70_FMwebp_.jpg'
-    }
+    { color: 'Azul', colorCode: '#bad8f2', image: 'https://m.media-amazon.com/images/I/41i2bARv0ZL._AC_.jpg' }
   ],
   reviews: [
     {
@@ -39,8 +30,8 @@ export const product = {
         emailVerified: null,
         image: 'https://avatars.githubusercontent.com/u/25783243?v=4',
         hashedPassword: null,
-        createdAt: '2024-06-26T15:40:52.558Z',
-        updatedAt: '2024-06-26T15:40:52.558Z',
+        createdAt: '2023-06-26T15:40:52.558Z',
+        updatedAt: '2023-06-26T15:40:52.558Z',
         role: 'ADMIN'
       }
     },
@@ -58,8 +49,8 @@ export const product = {
         emailVerified: null,
         image: 'https://avatars.githubusercontent.com/u/155864724?v=4',
         hashedPassword: null,
-        createdAt: '2023-05-30T08:08:53.979Z',
-        updatedAt: '2023-05-30T08:08:53.979Z',
+        createdAt: '2023-06-25T14:30:40.998Z',
+        updatedAt: '2023-06-25T14:30:40.998Z',
         role: 'USER'
       }
     }

@@ -12,7 +12,7 @@ interface ProductImgProps {
 const ProductImg: React.FC<ProductImgProps> = ({ cartProduct, product, handleColorSelect }) => {
   return (
     <div className="grid grid-cols-6 gap-2 h-full max-h-[500px] min-h-[300px] sm:min-h-[400px]">
-      <div className="flex flex-col items-center justify-center gap-4 cursor-pointer border h-full max-h-[500px] min-h-[300px] sm:min-h-[400px]">
+      <div className="flex flex-col items-center justify-start pt-4 gap-4 cursor-pointer border h-full max-h-[500px] min-h-[300px] sm:min-h-[400px]">
         {product.images.map((image: SelectedImgType) => {
           return (
             <div
