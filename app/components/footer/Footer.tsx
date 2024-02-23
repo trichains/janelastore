@@ -30,25 +30,42 @@ const Footer = () => {
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
             <h3 className="text-base font-bold mb-2">Sobre Nós</h3>
             <p className="mb-2">
-              Em nossa loja de eletrônicos, nos dedicamos a fornecer os melhores e mais recentes dispositivos e
-              acessórios para nossos clientes. Com uma ampla seleção de telefones, TVs, laptops, relógios e acessórios.
+              Em nossa loja de eletrônicos, nos dedicamos a fornecer os melhores
+              e mais recentes dispositivos e acessórios para nossos clientes.
+              Com uma ampla seleção de telefones, TVs, laptops, relógios e
+              acessórios.
             </p>
-            <p>&copy; {new Date().getFullYear()} JanelaStore. Todos os direitos reservados.</p>
+            <p>
+              &copy; {new Date().getFullYear()} JanelaStore. Todos os direitos
+              reservados.
+            </p>
           </div>
 
           <FooterList>
             <h3 className="text-base font-bold mb-2">Redes Sociais</h3>
             <div className="flex gap-2">
-              <Link href="https://facebook.com/trichains" target="_blank" rel="noopener noreferrer">
+              <Link
+                href="https://facebook.com/trichains"
+                target="_blank"
+                rel="noopener noreferrer">
                 <MdFacebook size={24} />
               </Link>
-              <Link href="https://github.com/trichains" target="_blank" rel="noopener noreferrer">
+              <Link
+                href="https://github.com/trichains"
+                target="_blank"
+                rel="noopener noreferrer">
                 <AiFillGithub size={24} />
               </Link>
-              <Link href="https://trichains.dev" target="_blank" rel="noopener noreferrer">
+              <Link
+                href="https://trichains.dev"
+                target="_blank"
+                rel="noopener noreferrer">
                 <MdCode size={24} />
               </Link>
-              <Link href="https://www.linkedin.com/in/trichains/" target="_blank" rel="noopener noreferrer">
+              <Link
+                href="https://www.linkedin.com/in/trichains/"
+                target="_blank"
+                rel="noopener noreferrer">
                 <AiFillLinkedin size={24} />
               </Link>
             </div>

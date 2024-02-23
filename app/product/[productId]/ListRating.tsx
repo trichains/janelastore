@@ -20,11 +20,13 @@ const ListRating: React.FC<ListRatingProps> = ({ product }) => {
         {product.reviews &&
           product.reviews.map((review: any) => {
             return (
-              <div key={review.id} className="max-w-300px">
+              <div key={review.id} className="max-w-[300px]">
                 <div className="flex gap-2 items-center">
                   <Avatar src={review?.user.image} />
                   <div className="font-semibold">{review?.user.name}</div>
-                  <div className="text-zinc-500 font-light">{moment(review.createdAt).fromNow()}</div>
+                  <div className="text-zinc-500 font-light">
+                    {moment(review.createdAt).fromNow()}
+                  </div>
                 </div>
                 <div className="mt-2">
                   <Rating value={review.rating} precision={0.5} readOnly />

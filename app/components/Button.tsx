@@ -12,7 +12,15 @@ interface ButtonProps {
   onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
-const Button: React.FC<ButtonProps> = ({ label, disabled, outline, small, custom, icon: Icon, onClick }) => {
+const Button: React.FC<ButtonProps> = ({
+  label,
+  disabled,
+  outline,
+  small,
+  custom,
+  icon: Icon,
+  onClick
+}) => {
   return (
     <button
       disabled={disabled}

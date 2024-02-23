@@ -45,7 +45,10 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
   });
 
   const productRating =
-    product.reviews.reduce((acc: number, review: any) => acc + review.rating, 0) / product.reviews.length;
+    product.reviews.reduce(
+      (acc: number, review: any) => acc + review.rating,
+      0
+    ) / product.reviews.length;
 
   const handleColorSelect = useCallback(
     (value: SelectedImgType) => {
@@ -78,7 +81,11 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-      <ProductImg cartProduct={cartProduct} product={product} handleColorSelect={handleColorSelect} />
+      <ProductImg
+        cartProduct={cartProduct}
+        product={product}
+        handleColorSelect={handleColorSelect}
+      />
       <div className="flex flex-col gap-1 text-zinc-500 text-sm">
         <h2 className="text-3xl font-medium text-zinc-700">{product.name}</h2>
         <div className="flex items-center gap-2">
@@ -98,7 +105,11 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
           {product.inStock ? 'Em estoque' : 'Fora de estoque'}
         </div>
         <Horizontal />
-        <SetColor images={product.images} cartProduct={cartProduct} handleColorSelect={handleColorSelect} />
+        <SetColor
+          images={product.images}
+          cartProduct={cartProduct}
+          handleColorSelect={handleColorSelect}
+        />
         <Horizontal />
         <SetQuantity
           cartProduct={cartProduct}

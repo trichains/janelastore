@@ -9,7 +9,8 @@ interface SetQuantityProps {
   handleQuantityDecrease: () => void;
 }
 
-const btnStyles = 'border-[1.2px] border-zinc-300 rounded px-2 transition hover:scale-105 ease-in';
+const btnStyles =
+  'border-[1.2px] border-zinc-300 rounded px-2 transition hover:scale-105 ease-in';
 const increaseBtnStyles = `${btnStyles} hover:text-emerald-500 hover:border-emerald-500`;
 const decreaseBtnStyles = `${btnStyles} hover:text-rose-500 hover:border-rose-500`;
 
